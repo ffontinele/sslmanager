@@ -14,7 +14,7 @@ clear
 apt-get install stunnel -y
 clear
 
-echo -e "\033[1;31mC A P I T U R A N D O  I P"
+echo -e "\033[1;31m C A P I T U R A N D O  I P"
 ip=$(curl https://api.ipify.org/)
 echo $ip
 clear
