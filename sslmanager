@@ -43,7 +43,7 @@ echo -e "\033[1;33m ######################################"
 sleep 2
 clear
 cat stunnel.crt stunnel.key > stunnel.pem 
-mv stunnel.pem /etc/stunnel/
+mv stunnel.pem /etc/stu21
 clear
 echo -e "\033[1;31m D I G I T E  A  P O R T A  Q U E  D E S E J A R"
 echo -e "\033[1;31m P O R T  S S L"
