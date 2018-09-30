@@ -32,7 +32,7 @@ echo -e "\033[1;33m #################"
 echo -e "\033[1;31m G E N E R A T I N G  C E R T I F I C A T E"
 echo -e "\033[1;33m ######################################"
 sleep 1
-openssl genrsa 2048 > stunnel.key
+openssl genrsa 1024 > stunnel.key
 openssl req -new -key stunnel.key -x509 -days 1000 -out stunnel.crt
 
 echo -e "\033[1;33m ######################################"
