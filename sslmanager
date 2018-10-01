@@ -3,17 +3,6 @@
 # Criado por: @lostvpnoficial
 # editado por @Fontinele
 
-echo -e "\033[1;33m- - - - -> \033[01;34mScript Configurar o servidor para usar SSL/TLS Stunnel4"
-echo -e "\033[1;33m #################"
-echo -e "\033[1;33m- - - - -> \033[01;34mScript Configure the server to use SSL / TLS Stunnel4"
-echo -e "\033[1;33m #################"
-echo -e "\033[1;31mC A N A L   @fillesnetfree"
-sleep 2
-
-#!/bin/bash
-# Script SSL Tunnel
-# Criado por: @lostvpnoficial
-# editado por @Fontinele
 instalador(){
 	apt-get update
     	apt-get install stunnel4 -y
