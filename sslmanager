@@ -42,6 +42,8 @@ instalador(){
 	service stunnel4 restart
 	clear
 	echo -e "O SSL foi instalado e configurado com sucesso!\n"
+	sleep 1
+	menu
 }
 
 remover(){
@@ -50,6 +52,7 @@ remover(){
 	clear
 	echo -e "Pronto! O stunnel4 foi removido com sucesso!\n"
 	sleep 2
+	menu
 }
 clear
 echo -e "================== Menu stunnel4 ===================\n"
@@ -63,6 +66,7 @@ elif [ $resp = "2" ]; then
 	remover
 elif [ $resp = "0" ]; then
 	echo -e "\nSaindo...\n"
+	menu
 else
 	echo -e "\nOpÃ§Ã£o invÃ¡lida!"
 	sleep 1
@@ -70,4 +74,4 @@ else
 fi
 sleep 1
 clear
-menu
+exit
