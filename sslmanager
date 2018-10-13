@@ -3,7 +3,8 @@
 # Criado por: @lostvpnoficial
 # editado por @Fontinele
 
-instalador(){
+instalador()
+{
 	apt-get update
     	apt-get install stunnel4 -y
 	cd /etc/stunnel
@@ -46,7 +47,8 @@ instalador(){
 	menu
 }
 
-remover(){
+remover()
+{
 	apt-get purge stunnel4 -y
 	apt-get autoremove -y
 	clear
