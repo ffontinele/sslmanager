@@ -69,4 +69,6 @@ else
 	bash stunnel
 fi
 sleep 1
+clear
+exit
 menu
