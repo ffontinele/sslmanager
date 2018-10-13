@@ -65,7 +65,7 @@ if [ $resp = "1" ]; then
 elif [ $resp = "2" ]; then
 	remover
 elif [ $resp = "0" ]; then
-	echo -e "\033[1;35msaindo\033[0m"
+	echo -e "\033[1;35nsaindo\033[0m"
 	sleep 1
 	menu
 else
