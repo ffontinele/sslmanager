@@ -45,7 +45,7 @@ instalador()
 	echo -e "O SSL foi instalado e configurado com sucesso!\n"
 	sleep 1
 	menu
-}
+	}
 
 remover()
 {
