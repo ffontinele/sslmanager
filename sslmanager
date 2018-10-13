@@ -70,4 +70,5 @@ else
 fi
 sleep 1
 clear
-menu;;
+exit;
+menu
