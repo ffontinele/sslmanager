@@ -69,5 +69,5 @@ else
 	bash stunnel
 fi
 sleep 1
-menu;;
+menu
 esac
