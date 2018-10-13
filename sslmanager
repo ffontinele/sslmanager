@@ -65,7 +65,7 @@ if [ $resp = "1" ]; then
 elif [ $resp = "2" ]; then
 	remover
 elif [ $resp = "0" ]; then
-	echo -e "\nSaindo...\n"
+	echo -e "\033[1;35msaindo\033[0m
 	menu
 else
 	echo -e "\nOpÃ§Ã£o invÃ¡lida!"
